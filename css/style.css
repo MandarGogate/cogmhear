@@ -832,7 +832,7 @@ a.no-padding{
 #menu-btn {
     display: none;
     float: right;
-    margin-top: 5px;
+    margin-top: 15px;
     width: 36px;
     height: 36px;
     padding: 6px;
@@ -1052,7 +1052,7 @@ header.header-light {
 header.header-mobile {
 	position:absolute;
 	top:0;
-    height: 70px;
+    height: 100px;
     background: #fff;
 }
 
