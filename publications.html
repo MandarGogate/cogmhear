@@ -93,7 +93,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2>Publications</h2>
+                                <h2>Publications and Project Resources</h2>
                             </div>
                         </div>
                     </div>
@@ -108,24 +108,36 @@
                     <div class="row">
                         <div class="inner-padding">
                             <div class="col-md-12 wow fadeIn">
-                                <img style="max-width: 100%;" src="img/papers/1.jpg">
                                 <h3 class="mb20">CochleaNet: A robust language-independent audio-visual model for real-time speech enhancement</h3>
+                                <img style="max-width: 100%;" src="img/papers/1.jpg">
                                 <p class="text-justify">Abstract: Noisy situations cause huge problems for the hearing-impaired, as hearing aids often make speech more audible but do not always restore intelligibility. In noisy settings, humans routinely exploit the audio-visual (AV) nature of speech to selectively suppress background noise and focus on the target speaker. In this paper, we present a novel language-, noise- and speaker-independent AV deep neural network (DNN) architecture, termed CochleaNet, for causal or real-time speech enhancement (SE). The model jointly exploits noisy acoustic cues and noise robust visual cues to focus on the desired speaker and improve speech intelligibility. The proposed SE framework is evaluated using a first of its kind AV binaural speech corpus, ASPIRE, recorded in real noisy environments, including cafeteria and restaurant settings. We demonstrate superior performance of our approach in terms of both objective measures and subjective listening tests, over state-of-the-art SE approaches, including recent DNN based SE models. In addition, our work challenges a popular belief that scarcity of a multi-lingual, large vocabulary AV corpus and a wide variety of noises is a major bottleneck to build robust language, speaker and noise-independent SE systems. We show that a model trained on a synthetic mixture of the benchmark GRID corpus (with 33 speakers and a small English vocabulary) and CHiME 3 noises (comprising bus, pedestrian, cafeteria, and street noises) can generalise well, not only on large vocabulary corpora with a wide variety of speakers and noises, but also on completely unrelated languages such as Mandarin.
                                 </p>
                                 <div class="spacer-half"></div>
-                                <a href="https://doi.org/10.1016/j.inffus.2020.04.001" class="btn-custom scroll-to">PDF</a>
+                                <a href="https://doi.org/10.1016/j.inffus.2020.04.001" class="btn-custom scroll-to">PDF</a><a href="https://zenodo.org/record/4585619" class="btn-custom" style="margin-left: 20px;">ASPIRE Corpus</a>
                             </div>
                             <div class="clearfix"></div>
                         </div>
 
                         <div class="inner-padding">
                             <div class="col-md-12 wow fadeIn">
-                                <img style="max-width: 100%;" src="img/papers/0.jpg">
                                 <h3 class="mb20">Contextual deep learning-based audio-visual switching for speech enhancement in real-world environments</h3>
+                                <img style="max-width: 100%;" src="img/papers/0.jpg">
                                 <p class="text-justify">Abstract: Human speech processing is inherently multi-modal, where visual cues (e.g. lip movements) can help better understand speech in noise. Our recent work [1] has shown that lip-reading driven, audio-visual (AV) speech enhancement can significantly outperform benchmark audio-only approaches at low signal-to-noise ratios (SNRs). However, consistent with our cognitive hypothesis, visual cues were found to be relatively less effective for speech enhancement at high SNRs, or low levels of background noise, where audio-only (A-only) cues worked adequately. Therefore, a more cognitively-inspired, context-aware AV approach is required, that contextually utilises both visual and noisy audio features, and thus more effectively accounts for different noisy conditions. In this paper, we introduce a novel context-aware AV speech enhancement framework that contextually exploits AV cues with respect to different operating conditions, in order to estimate clean audio, without requiring any prior SNR estimation. In particular, an AV switching module is developed by integrating a convolutional neural network (CNN) and long-short-term memory (LSTM) network, that learns to contextually switch between visualonly (V-only), A-only and both AV cues at low, high and moderate SNR levels, respectively. For testing, the estimated clean audio features are utilised using an innovative, enhanced visually-derived Wiener filter (EVWF) for noisy speech filtering. The context-aware AV speech enhancement framework is evaluated in dynamic real-world scenarios (including cafe, street, bus, and pedestrians) at different SNR levels (ranging from low to high SNRs), using benchmark Grid and ChiME3 corpora. For objective testing, perceptual evaluation of speech quality (PESQ) is used to evaluate the quality of the restored speech. For subjective testing, the standard mean-opinion-score (MOS) method is used. Comparative experimental results show the superior performance of our proposed context-aware AV approach, over A-only, V-only, spectral subtraction (SS), and log-minimum mean square error (LMMSE) based speech enhancement methods, at both low and high SNRs. The preliminary findings demonstrate the capability of our novel approach to deal with spectro-temporal variations in real-world noisy environments, by contextually exploiting the complementary strengths of audio and visual cues. In conclusion, our contextual deep learning-driven AV framework is posited as a benchmark resource for the multi-modal speech processing and machine learning communities.
                                 </p>
                                 <div class="spacer-half"></div>
                                 <a href="https://doi.org/10.1016/j.inffus.2019.08.008" class="btn-custom scroll-to">PDF</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="inner-padding">
+                            <div class="col-md-12 wow fadeIn">
+                                <h3 class="mb20">CogAVHearing Lip-Reading Driven AV Speech Enhancement Demo</h3>
+                                <img class="col-md-6" src="img/demos/1.png">
+                                <p class="text-justify">This preliminary interactive Demo is aimed at demonstrating the potential of "context-aware" audio-visual hearing aids, based on Big Data Deep Learning technology. The demo has been developed by feeding randomly selected, real noisy speech videos from YouTube, into the audio-visual speech enhancement system.
+                                </p>
+                                <div class="spacer-half"></div>
+                                <a href="https://cogbid.github.io/cogavhearingdemo/" class="btn-custom scroll-to">Demo Link</a>
                             </div>
                             <div class="clearfix"></div>
                         </div>
