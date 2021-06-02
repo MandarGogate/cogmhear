@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/colors/red.css" type="text/css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -132,12 +133,16 @@
                                     </div>
 
                                     <div class="col-md-12">
+                                        <div class="g-recaptcha" data-sitekey="6LfHeAgbAAAAAARE6C6ob1DPg8kt654JaaZzlphn"></div> <!-- replace with your recaptcha SITE key not secret key -->
+
                                         <div id='submit'>
                                             <input type='submit' id='send_message' value='Submit Form' class="btn btn-custom color-2">
                                         </div>
                                         <div id='mail_success' class='success'>Your message has been sent successfully.</div>
                                         <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+                                        <p id="my-form-status"></p>
                                     </div>
+
 
 
                                 </div>
