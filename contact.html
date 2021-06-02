@@ -113,7 +113,7 @@
                         <div class="col-md-12 mb-md-30">
                             <form name="contactForm" id='contact_form' class="de_form" method="post" action="https://formspree.io/f/xyylgezg"  method="POST">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-sm-12">
                                         <div class="field-set">
                                             <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
                                             <div class="line-fx"></div>
@@ -123,17 +123,15 @@
                                             <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
                                             <div class="line-fx"></div>
                                         </div>
-                                    </div>
-
-                                    <div class="col-md-6">
                                         <div class="field-set">
                                             <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
                                             <div class="line-fx"></div>
                                         </div>
+                                        <div class="g-recaptcha" data-sitekey="6LfHeAgbAAAAAARE6C6ob1DPg8kt654JaaZzlphn"></div> <!-- replace with your recaptcha SITE key not secret key -->
+
                                     </div>
 
                                     <div class="col-md-12">
-                                        <div class="g-recaptcha" data-sitekey="6LfHeAgbAAAAAARE6C6ob1DPg8kt654JaaZzlphn"></div> <!-- replace with your recaptcha SITE key not secret key -->
 
                                         <div id='submit'>
                                             <input type='submit' id='send_message' value='Submit Form' class="btn btn-custom color-2">
@@ -195,7 +193,7 @@
     <script src="js/jquery.plugin.js"></script>
     <script src="js/jquery.easeScroll.js"></script>
     <script src="js/designesia.js"></script>
-    <script src="js/validation.js"></script>
+<!--    <script src="js/validation.js"></script>-->
     <script>
         var form = document.getElementById("contact_form");
         async function handleSubmit(event) {
