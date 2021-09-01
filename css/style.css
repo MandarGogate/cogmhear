@@ -591,7 +591,7 @@ header.de_header_2.smaller .info {
     padding: 30px 0px 30px 20px;
     line-height: 35px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     text-align: center;
     outline: none;
 }
@@ -7632,7 +7632,7 @@ section.no-padding {
 }
 
 .overlay-bg.t50 {
-    background: rgba(30, 30, 30, .3);
+    background: rgba(30, 30, 30, .5);
 }
 
 .overlay-bg.c1 {
