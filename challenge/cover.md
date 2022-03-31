@@ -8,3 +8,7 @@
 [GitHub](https://github.com/docsifyjs/docsify/)
 [Get Started](/docs#getting-started)
 [Contact Us](/contact)
+
+
+
+<!-- ![color](#c6efe9) -->

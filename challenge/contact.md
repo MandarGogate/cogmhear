@@ -1,3 +1,3 @@
 ## General contact
 
-### cogmhear@gmail.com
+### [CONTACT EMAIL]@napier.ac.uk

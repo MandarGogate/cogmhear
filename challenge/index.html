@@ -12,10 +12,14 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-    coverpage: true,
+      coverpage: {
+    '/': 'cover.md'
+  },
+    onlyCover: true,
     loadNavbar: true,
     loadSidebar: true,
-    loadNavbar: '_navbar.md',
+    loadNavbar: 'navbar.md',
+    loadSidebar: 'sidebar.md',
     logo: 'logo.svg',
   }
   </script>
