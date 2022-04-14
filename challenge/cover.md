@@ -2,13 +2,13 @@
 
 <!-- ![logo](_media/icon.svg) -->
 
-# The 1st Multi-modal Hearing-Aid Challenge
-## A machine learning challenge for Audio-Visual Speech Enhancement  
+# 1st COG-MHEAR Audio-Visual Speech Enhancement Challenge
+## A machine learning challenge for next-generation hearing devices  
 
-[GitHub](https://github.com/docsifyjs/docsify/)
 [Get Started](/docs#getting-started)
+[Important dates](/important-dates)
+[Team](/team)
+[GitHub](https://github.com/cogmhear/clarity)
 [Contact Us](/contact)
 
-
-
-<!-- ![color](#c6efe9) -->
+![color](#EEE)
