@@ -211,3 +211,563 @@
 }
 
 /* topbar end here */
+
+/* ================================================== */
+/* Logo Visibility Fix */
+/* ================================================== */
+
+/* Default: show light logo, hide dark logo */
+header div#logo .logo {
+    display: block !important;
+}
+
+header div#logo .logo-2 {
+    display: none !important;
+}
+
+/* Header light background: hide light logo, show dark logo */
+header.header-light div#logo .logo,
+header.smaller.scroll-light div#logo .logo {
+    display: none !important;
+}
+
+header.header-light div#logo .logo-2,
+header.smaller.scroll-light div#logo .logo-2 {
+    display: block !important;
+}
+
+/* Mobile header: show dark logo */
+header.header-mobile div#logo .logo {
+    display: none !important;
+}
+
+header.header-mobile div#logo .logo-2 {
+    display: block !important;
+}
+
+/* ================================================== */
+/* Navbar Alignment - Desktop */
+/* ================================================== */
+
+@media only screen and (min-width: 993px) {
+    /* Base header styles */
+    header {
+        height: 80px;
+    }
+    
+    header .container {
+        height: 100%;
+    }
+    
+    header .row {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    header .col-md-12 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+    }
+    
+    /* Logo styling */
+    header div#logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        flex-shrink: 0;
+    }
+    
+    header div#logo a {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    
+    header div#logo img {
+        display: block;
+        max-height: 45px;
+        width: auto;
+    }
+    
+    /* Navigation */
+    header nav {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    
+    #mainmenu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #mainmenu > li {
+        display: flex;
+        align-items: center;
+    }
+    
+    #mainmenu > li > a {
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+}
+
+/* ================================================== */
+/* Tablet and Mobile (max-width: 992px) */
+/* ================================================== */
+
+@media only screen and (max-width: 992px) {
+    /* Fix style.css's header.header-mobile { position: absolute; height: 100px } */
+    /* INCREASED to 90px for better touch targets */
+    header,
+    header.header-mobile {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 90px !important;
+        min-height: 90px;
+        z-index: 999;
+    }
+
+    /* Fix style.css's header.header-mobile #logo { margin-top: -20px } */
+    header.header-mobile #logo {
+        margin-top: 0 !important;
+    }
+
+    /* Push page content below fixed header */
+    body {
+        padding-top: 90px;
+    }
+
+    header .container {
+        display: block !important;
+        height: 90px;
+        padding: 0 20px;
+    }
+
+    header .row {
+        display: flex !important;
+        align-items: center !important;
+        height: 90px !important;
+        margin: 0 !important;
+        flex-wrap: nowrap !important;
+    }
+
+    header .col-md-12 {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        flex-wrap: nowrap !important;
+        height: 90px !important;
+        float: none !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    /* Logo and Menu - vertically centered */
+    header div#logo {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex: 0 0 auto;
+        height: 90px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        position: static !important;
+    }
+
+    header div#logo a {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 100% !important;
+    }
+
+    header div#logo img {
+        max-height: 45px;
+        display: block !important;
+        width: auto;
+    }
+
+    /* Menu button - vertically centered */
+    #menu-btn {
+        display: block !important;
+        flex: 0 0 auto;
+        margin: 0 !important;
+        padding: 0 !important;
+        float: none !important;
+        position: static !important;
+        width: 44px !important;
+        height: 44px !important;
+        line-height: 44px !important;
+        text-align: center !important;
+    }
+
+    #menu-btn:before {
+        line-height: 44px !important;
+        font-size: 26px !important;
+        vertical-align: middle !important;
+    }
+
+    /* Mobile nav dropdown — fixed so it spans full viewport width */
+    header nav {
+        position: fixed;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        z-index: 998;
+        overflow-y: auto;
+        max-height: calc(100vh - 90px);
+    }
+    
+    /* Larger menu items for better touch targets */
+    #mainmenu > li > a {
+        padding: 18px 20px !important;
+        font-size: 16px !important;
+    }
+
+    #mainmenu {
+        display: none;
+        width: 100%;
+        padding: 0;
+        margin: 0 !important;
+    }
+
+    #mainmenu > li {
+        display: block;
+        float: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    #mainmenu > li > a {
+        display: block;
+        padding: 15px 20px;
+        color: #333;
+        text-align: left;
+        line-height: normal;
+    }
+
+    #mainmenu li a:after {
+        display: none;
+    }
+    
+    /* Responsive typography */
+    h1.big {
+        font-size: 36px !important;
+    }
+    
+    h2 {
+        font-size: 28px !important;
+    }
+    
+    .lead {
+        font-size: 16px !important;
+    }
+    
+    /* Responsive padding */
+    section {
+        padding: 60px 0 !important;
+    }
+    
+    /* Full width containers */
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* ================================================== */
+/* Mobile phones (max-width: 767px) */
+/* ================================================== */
+
+@media only screen and (max-width: 767px) {
+    /* Keep 90px height for better usability */
+    header,
+    header.header-mobile {
+        height: 90px !important;
+        min-height: 90px;
+    }
+
+    body {
+        padding-top: 90px;
+    }
+
+    header .container,
+    header .row,
+    header .col-md-12 {
+        height: 90px !important;
+    }
+
+    header div#logo {
+        height: 90px !important;
+        padding: 0 !important;
+    }
+
+    header div#logo img {
+        max-height: 42px;
+    }
+
+    #menu-btn {
+        width: 42px !important;
+        height: 42px !important;
+        margin: 0 !important;
+        line-height: 42px !important;
+    }
+
+    #menu-btn:before {
+        line-height: 42px !important;
+        font-size: 24px !important;
+    }
+
+    header nav {
+        top: 90px;
+        max-height: calc(100vh - 90px);
+    }
+    
+    h1.big {
+        font-size: 28px !important;
+    }
+    
+    h2 {
+        font-size: 24px !important;
+    }
+    
+    h3 {
+        font-size: 20px !important;
+    }
+    
+    /* Stack grid columns */
+    .row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    
+    .col-md-4, .col-md-6, .col-md-8, .col-md-12 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    /* Footer adjustments */
+    footer {
+        padding: 40px 0 30px !important;
+    }
+    
+    footer a {
+        display: inline-block;
+        padding: 8px 15px !important;
+        font-size: 12px !important;
+    }
+    
+    /* YouTube iframes responsive */
+    iframe {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 200px;
+    }
+    
+    /* Partners/Sponsors carousel - ensure visible on mobile */
+    .owl-sponsors {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .owl-sponsors:last-child {
+        margin-bottom: 0 !important;
+    }
+    
+    .owl-sponsors .owl-stage-outer {
+        overflow: hidden !important;
+        width: 100% !important;
+    }
+    
+    .owl-sponsors .owl-stage {
+        display: flex !important;
+        align-items: center !important;
+    }
+    
+    .owl-sponsors .owl-item {
+        visibility: visible !important;
+        opacity: 1 !important;
+        display: block !important;
+        /* Let owl carousel control width */
+    }
+    
+    .owl-sponsors .item {
+        padding: 15px 10px;
+        text-align: center;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        visibility: visible !important;
+        min-height: 80px !important;
+    }
+    
+    .owl-sponsors .item img {
+        max-height: 60px !important;
+        width: auto !important;
+        max-width: 100% !important;
+        display: block !important;
+        visibility: visible !important;
+    }
+    
+    /* Remove inline padding for mobile */
+    .owl-sponsors .item img[style*="padding-top"] {
+        padding-top: 0 !important;
+    }
+    
+    /* Fix max-width items on mobile */
+    .owl-sponsors .item[style*="max-width"] {
+        max-width: none !important;
+    }
+    
+    /* Partner section heading */
+    #section-clients h3 {
+        font-size: 17px !important;
+        margin-bottom: 25px !important;
+        padding: 0 15px;
+        line-height: 1.5 !important;
+    }
+    
+    /* Ensure carousel wrapper is visible */
+    #section-clients .owl-carousel {
+        display: block !important;
+        visibility: visible !important;
+    }
+    
+    /* Section padding adjustment */
+    #section-clients {
+        padding: 40px 0 !important;
+    }
+
+/* ================================================== */
+/* Small mobile phones (max-width: 480px) */
+/* ================================================== */
+
+@media only screen and (max-width: 480px) {
+    /* Slightly smaller header for very small screens */
+    header,
+    header.header-mobile {
+        height: 80px !important;
+        min-height: 80px;
+    }
+
+    body {
+        padding-top: 80px;
+    }
+
+    header .container,
+    header .row,
+    header .col-md-12 {
+        height: 80px !important;
+    }
+    
+    header div#logo {
+        height: 80px !important;
+        padding: 0 !important;
+    }
+    
+    header div#logo img {
+        max-height: 38px;
+    }
+    
+    #menu-btn {
+        width: 40px !important;
+        height: 40px !important;
+        margin: 0 !important;
+        line-height: 40px !important;
+    }
+    
+    #menu-btn:before {
+        line-height: 40px !important;
+    }
+    
+    header nav {
+        top: 80px;
+        max-height: calc(100vh - 80px);
+    }
+    
+    h1.big {
+        font-size: 24px !important;
+    }
+    
+    .btn-custom {
+        display: block;
+        width: 100%;
+        margin: 10px 0 !important;
+        text-align: center;
+    }
+    
+    /* Footer single column */
+    footer .row > div {
+        text-align: center;
+    }
+    
+    footer a {
+        display: block;
+        padding: 10px 0 !important;
+        border-bottom: 1px solid #333;
+    }
+    
+    footer a:last-child {
+        border-bottom: none;
+    }
+    
+    /* Container padding */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Partners carousel smaller on tiny screens */
+    .owl-sponsors .item {
+        min-height: 70px !important;
+        padding: 10px 5px !important;
+    }
+    
+    .owl-sponsors .item img {
+        max-height: 50px !important;
+        max-width: 90% !important;
+    }
+    
+    #section-clients {
+        padding: 30px 0 !important;
+    }
+    
+    #section-clients h3 {
+        font-size: 15px !important;
+        padding: 0 10px;
+    }
+    
+    /* Ensure carousel is visible on small screens */
+    .owl-sponsors {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    
+    .owl-sponsors .owl-item {
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    
+    .owl-sponsors .owl-stage-outer {
+        overflow: hidden !important;
+    }
+}

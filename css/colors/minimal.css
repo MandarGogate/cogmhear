@@ -1,0 +1,446 @@
+/* Premium EPSRC Theme - Modern & Sophisticated */
+/* Primary: Deep Navy #0a1628 | Accent: Gold #c9a227 | Background: White #ffffff */
+
+.bg-color,
+section.bg-color,
+section.call-to-action,
+#mainmenu li li a:hover,
+#mainmenu ul li:hover>a,
+.price-row,
+.slider-info .text1,
+.btn-primary,
+.bg-id-color,
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus,
+.dropcap,
+.fullwidthbanner-container a.btn,
+.feature-box-big-icon i,
+#testimonial-full,
+.icon-deco i,
+.feature-box-style-1 .border,
+.small-border,
+#jpreBar,
+.date-post,
+.team-list .small-border,
+.de-team-list .small-border,
+.btn-line:hover,
+a.btn-line:hover,
+.btn-line.hover,
+a.btn-line.hover,
+.owl-arrow span,
+.de-progress .progress-bar,
+#btn-close-x:hover,
+.feature-box-style-1 .info,
+.btn-more,
+.widget .small-border,
+.product img:hover,
+#btn-search,
+.de_tab.timeline li.active .dot,
+.btn-id,
+.tiny-border,
+#subheader .small-border-deco span,
+#services-list li a:hover,
+.timeline .tl-block .tl-line,
+.de_tab.tab_style_2 .de_nav li.active span,
+.de_tab.tab_steps.style-2 .de_nav li.active span,
+.feature-box-style-1.style-2 .number.bg-color,
+a.btn-custom,
+.btn-custom,
+span.overlay,
+.owl-custom-nav .btn-next:before,
+.owl-custom-nav .btn-prev:before,
+.timeline>li>.timeline-badge,
+.de_light .de_tab.tab_style_3 .de_nav li.active span,
+.de_tab.tab_style_4 .de_nav li.active span,
+.circle,
+.social-icons-sm i:hover,
+.btn-rsvp,
+.btn-close,
+.pricing-s1 .ribbon,
+.de_tab.tab_style_4 .de_nav li.active,
+a.btn-fullwidth,
+.de_testi.opt-3 blockquote:before,
+.feature-box-style-1 .info,
+.spinner>div,
+#back-to-top,
+.picframe .overlay,
+.box-icon-simple .num,
+.post-item .date-box .m,
+.owl-theme .owl-dots .owl-dot.active span,
+#pp-nav li .active span,
+.pp-slidesNav .active span,
+.pp-tooltip,
+h1.very-big span.underline,
+h2 span.underline,
+h1.big span.underline,
+.feature-box.style-2 i {
+    background: #0a1628;
+}
+
+#mainmenu li:hover>ul,
+#mainmenu li:hover>a,
+.date-box .day,
+.slider_text h1,
+.id-color,
+h1.id-color,
+h2.id-color,
+h3.id-color,
+h4.id-color,
+.pricing-box li h1,
+i.large:hover,
+.feature-box-style-1-2 i,
+address span i,
+.pricing-dark .pricing-box li.price-row,
+.ratings i,
+#mainmenu a:hover,
+header.smaller #mainmenu a.active,
+.pricing-dark .pricing-box li.price-row,
+.dark .feature-box-style-1 i,
+a.btn-slider:after,
+.box-icon-simple i,
+a.btn-line:after,
+.team-list .social a,
+.de_contact_info i,
+.dark .btn-line:hover:after,
+.dark a.btn-line:hover:after,
+.dark a.btn-line.hover:after,
+a.btn-text:after,
+.separator span i,
+address span strong,
+.de_tab.tab_steps .de_nav li span:hover,
+.de_testi_by,
+.widget_tags li a,
+.dark .btn-line:after,
+.dark a.btn-line:after,
+.crumb a,
+.btn-right:after,
+.btn-left:before,
+#mainmenu li a:after,
+header .info .social i:hover,
+#services-list li.active,
+#services-list li.active a:after,
+.testimonial-list:before,
+#filters a.selected,
+span.deco-big,
+h2.hs1 span,
+.wm,
+.wm2,
+.blog-list .date-box .day,
+.social-icons-sm i,
+.de_tab.tab_style_4 .de_nav li span,
+.schedule-item .sc-name,
+.de_testi.opt-2 .de_testi_by,
+.de_testi.opt-2 blockquote:before,
+#mainmenu li a.active,
+.de_light #mainmenu li a.active,
+.profile_pic .subtitle,
+.countdown-s4 .countdown-period,
+.pricing-s1 .bottom ul li i,
+h2 .uptitle,
+i.id-color {
+    color: #c9a227;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus .feature-box-big-icon i:after,
+.btn-line:hover,
+a.btn-line:hover,
+.btn-line.hover,
+a.btn-line.hover,
+.product img:hover,
+#contact_form input[type=text]:focus,
+#contact_form textarea:focus,
+#search:focus,
+#contact_form .de_light input[type=text]:focus,
+#contact_form .de_lighttextarea:focus,
+#contact_form .de_light #search:focus,
+.form-transparent input[type=text]:focus,
+.form-transparent textarea:focus,
+.form-transparent input[type=email]:focus,
+.de_tab.tab_steps.style-2 .de_nav li.active span,
+#filters a.selected,
+.social-icons-sm i,
+.box-border,
+.de_tab.tab_style_4 .de_nav {
+    border-color: #c9a227;
+}
+
+.feature-box-style-1:hover .inner .blog-list img,
+.arrow-up,
+.de_light .de_tab.tab_style_2 .de_nav li.active span,
+.timeline>li>.timeline-panel,
+.text-light .separator span:before,
+.text-light .separator span:after,
+.form-underline input[type=text]:focus,
+.form-underline textarea:focus,
+.form-underline input[type=email]:focus,
+.form-underline select:focus {
+    border-bottom-color: #c9a227;
+}
+
+.preloader1 {
+    border-top-color: #c9a227;
+}
+
+/* Premium Modern Overrides */
+.btn-custom {
+    border-radius: 4px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 16px 36px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #0a1628 0%, #1a2a42 100%);
+    border: none;
+    box-shadow: 0 4px 15px rgba(10, 22, 40, 0.3);
+    transition: all 0.3s ease;
+    will-change: transform;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(135deg, #c9a227 0%, #e0b840 100%);
+    color: #0a1628;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(201, 162, 39, 0.4);
+}
+
+/* Header fixes for navbar overlapping */
+header {
+    background: transparent;
+    height: 90px;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    will-change: background, transform;
+    transition: all 0.3s ease;
+}
+
+header.smaller {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 30px rgba(0,0,0,0.08);
+    height: 80px;
+}
+
+header.smaller.scroll-light #mainmenu a {
+    color: #0a1628;
+}
+
+/* Fix for logo and menu positioning */
+#logo {
+    position: relative;
+    z-index: 10000;
+}
+
+#mainmenu {
+    position: relative;
+    z-index: 10000;
+}
+
+#topbar {
+    background: #0a1628;
+    border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+    position: relative;
+    z-index: 10001;
+}
+
+footer {
+    background: #0a1628;
+    border-top: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+footer a {
+    color: #8892a0;
+}
+
+footer a:hover {
+    color: #c9a227;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #0a1628;
+}
+
+h1.big, h1.very-big {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+section {
+    background: #fff;
+}
+
+#subheader.dark {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+#subheader.dark h2, #subheader.dark h3 {
+    color: #0a1628;
+}
+
+.overlay-bg {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+#section-intro .overlay-bg {
+    background: linear-gradient(135deg, rgba(10, 22, 40, 0.85) 0%, rgba(26, 42, 66, 0.75) 100%);
+}
+
+#mainmenu a {
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#mainmenu a:after {
+    color: #c9a227;
+    font-size: 5px;
+}
+
+/* Research page header fix */
+#subheader {
+    background: linear-gradient(135deg, #0a1628 0%, #1a2a42 100%) !important;
+}
+
+#subheader h2 {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 42px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Modern card styles */
+.card-style {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.04);
+    will-change: transform;
+}
+
+.card-style:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+/* Gold accent line */
+.accent-line {
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #c9a227 0%, #e0b840 100%);
+}
+
+/* Topbar improvements */
+#topbar a {
+    color: #c9a227;
+    transition: color 0.3s;
+}
+
+#topbar a:hover {
+    color: #fff;
+}
+
+/* Section spacing improvements */
+section {
+    padding: 100px 0;
+}
+
+/* Form improvements */
+.form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 14px 18px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.form-control:focus {
+    border-color: #c9a227;
+    box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.1);
+}
+
+/* Link styles */
+a {
+    color: #0a1628;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #c9a227;
+    text-decoration: none;
+}
+
+/* Button variations */
+.btn-outline {
+    background: transparent;
+    border: 2px solid #c9a227;
+    color: #c9a227;
+}
+
+.btn-outline:hover {
+    background: #c9a227;
+    color: #0a1628;
+}
+
+/* Status badges */
+.status-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.status-ongoing {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: #fff;
+}
+
+.status-completed {
+    background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+    color: #fff;
+}
+
+/* Performance optimizations */
+img {
+    max-width: 100%;
+    height: auto;
+    will-change: auto;
+}
+
+.owl-carousel .item img {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

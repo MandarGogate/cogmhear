@@ -1038,10 +1038,16 @@
 		// --------------------------------------------------
 		jQuery('#menu-btn').on("click", function() {
 				if (mobile_menu_show == 0) {
-					jQuery('header').css("height","auto")
 					jQuery('#mainmenu').slideDown();
 					mobile_menu_show = 1;
 				} else {
+					jQuery('#mainmenu').slideUp();
+					mobile_menu_show = 0;
+				}
+			})
+		jQuery('#mainmenu li a').on("click", function() {
+				var mx = window.matchMedia("(max-width: 992px)");
+				if (mx.matches) {
 					jQuery('#mainmenu').slideUp();
 					mobile_menu_show = 0;
 				}
